@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+	char names [3][20]={};
+	int i;
+	printf("Enter Name : ");
+	for(i=0;i<3;i++){
+		scanf("%s",names[i]);
+	}
+	for(i=0;i<3;i++){
+		printf("%s\n",names[i]);
+	}
+	return 0;
+}
